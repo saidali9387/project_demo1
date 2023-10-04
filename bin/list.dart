@@ -16,4 +16,13 @@ void main(){
   list3.insert(2, 100);
   print(list3);
   print(list1.isEmpty);
+
+  for(int index=0 ; index < list3.length ; index++){
+    print('list3 [$index] = ${list3[index]}');
+  }
+
+  for(var i in list3){
+    print(i);
+  }
+
 }
